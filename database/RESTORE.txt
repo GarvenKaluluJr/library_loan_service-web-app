@@ -1,0 +1,2 @@
+Restore command (run from inside the database/ folder):
+mongorestore --uri="mongodb://127.0.0.1:27017" --db="library_loan_service" --drop "./dump/library_loan_service"
